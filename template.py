@@ -1,10 +1,14 @@
 __version__ = '1.0.0'
 
+# Boilerplate Imports
 import sys
 sys.path.append('..')
 sys.path.append('.')
 import os
-from utils import load_input
+from utils import load_input, run_solution
+
+# Solution imports
+
 
 
 def solve_a(data):
@@ -18,7 +22,4 @@ if __name__ == '__main__':
 	dirname = os.path.dirname(os.path.abspath(__file__))
 
 	for solve, part in ((solve_a, 'a'), (solve_b, 'b')):
-		data = load_input(dirname, part)
-		print(f'Solving {part.upper()}...')
-		solve(data)
-		print(f'Finished {part.upper()}')
+		run_solution(solve, load_input(dirname, part), part)

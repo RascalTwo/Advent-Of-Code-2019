@@ -1,6 +1,18 @@
 # Changelog
 
-Basic changelog
+Basic changelog, with actions broken into these categories:
+
+- `Added`
+- `Changed`
+- `Removed`
+
+## 1.1.0 - 2019-11-30
+
+### Added
+
+- Solution Execution time output
+- Comments seperating Boilerplace imports from Solution imports
+- List of Changelog category options
 
 ## 1.0.0 - 2019-11-30
 

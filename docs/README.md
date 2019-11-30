@@ -14,6 +14,12 @@ There will also be a `PART.EXT` file, containing my input for that part of the p
 
 Each solution also contains a `__version__` variable, denoting the version of the solution - of which all start at `1.0.0`
 
+### Running
+
+Each solution can be ran either from the day directory, or from the main project directory.
+
+After running, the execution time in seconds will be outputted.
+
 ## Additionals
 
 The `template.py` file is a base template of all `solution.py` files, while `utils.py` generates the `template.py` file for the next day and exposes a `load_input` method.

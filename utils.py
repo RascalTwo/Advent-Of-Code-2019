@@ -1,10 +1,11 @@
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 
 from datetime import datetime, timedelta
 import os
 import shutil
 import json
 import csv
+import time
 
 def load_input(dirpath: str, part: str):
 	"""Load input from the text, JSON, or CSV file"""
@@ -18,6 +19,12 @@ def load_input(dirpath: str, part: str):
 			reader = csv.DictReader(f)
 			return [row for row in list(reader)]
 
+def run_solution(solver, data, part: str):
+	"""Run the given solver, while timing its execution"""
+	start = time.time()
+	print(f'Solving {part.upper()}...')
+	solver(data)
+	print(f'Finished in {round(time.time() - start, 2)} seconds')
 
 if __name__ == '__main__':
 	day = (datetime.now() + timedelta(days=1)).day
