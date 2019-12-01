@@ -6,7 +6,7 @@ Written in Python 3.7 using [VSCode](https://code.visualstudio.com/), with occat
 
 ## Solutions
 
-Solutions are found within their day directories: 1 - 31
+Solutions are found within their day directories: 1 - 25
 
 Each day contains `solution.py`, which contains the methods `solve_a` and `solve_b`, which solve part A and B of the problem.
 

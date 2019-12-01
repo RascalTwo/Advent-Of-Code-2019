@@ -6,6 +6,16 @@ Basic changelog, with actions broken into these categories:
 - `Changed`
 - `Removed`
 
+## 1.2.0 - 2019-12-1
+
+### Added
+
+- Day 1 solution
+
+### Changed
+
+- Fixed `README.md` date range
+
 ## 1.1.0 - 2019-11-30
 
 ### Added
